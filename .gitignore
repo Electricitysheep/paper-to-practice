@@ -1,0 +1,25 @@
+# Dependencies & Build Artifacts
+__pycache__/
+*.py[cod]
+*.so
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Node
+node_modules/

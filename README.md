@@ -6,9 +6,10 @@
 </p>
 
 <p align="center">
-  <a href="#-by-the-numbers"><img src="https://img.shields.io/badge/Papers-100%2B-blue" alt="Papers"></a>
-  <a href="#-topics"><img src="https://img.shields.io/badge/Topics-10-brightgreen" alt="Topics"></a>
-  <a href="#-practical-guides"><img src="https://img.shields.io/badge/Guides-5-orange" alt="Guides"></a>
+  <a href="#-by-the-numbers"><img src="https://img.shields.io/badge/Papers-100%2B-blue?style=flat-square" alt="Papers"></a>
+  <a href="#-topics"><img src="https://img.shields.io/badge/Topics-10-brightgreen?style=flat-square" alt="Topics"></a>
+  <a href="#-practical-guides"><img src="https://img.shields.io/badge/Guides-5-orange?style=flat-square" alt="Guides"></a>
+  <a href="#-by-the-numbers"><img src="https://img.shields.io/badge/Updated-Monthly-ff69b4?style=flat-square" alt="Updates"></a>
   <a href="README_CN.md"><img src="https://img.shields.io/badge/中文-完整版-red" alt="Chinese"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow" alt="License"></a>
 </p>
@@ -111,10 +112,10 @@ In 2026, **AI Agents moved from lab to production**. Yet a massive gap remains:
 | 4 | [AI Safety & Alignment](topics/ai-safety-alignment.md) | 10+ | LLM-VA: vector alignment in minutes. SInternal: self-verification |
 | 5 | [Foundation Models](topics/foundation-models.md) | 10+ | DeepSeek V4/R2. Spatial-TTT 2B > GPT-5 |
 | 6 | [Long-Horizon & Memory](topics/long-horizon-memory.md) | 8+ | KLong: 106B beats 1T on PaperBench. MEMPROBE: memory ≠ task success |
-| 7 | [Multimodal & CV](topics/multimodal-cv.md) | 8+ | CVPR 2026: UltraFlux 4K, PixelDiT, SpeeDiff 140x faster |
-| 8 | [Quantization & Efficiency](topics/quantization-efficiency.md) | 8+ | HyperQuant 3.9x compression. Meta: quantified models "overthink" |
-| 9 | [Scientific AI](topics/scientific-ai.md) | 5+ | Aletheia: autonomous math research. STAR-PolyaMath: 8 benchmarks SOTA |
-| 10 | [Interpretability](topics/interpretability.md) | 5+ | Atoms of LLMs (ICML). LatentQA: decode activations to language |
+| 7 | [Multimodal & CV](topics/multimodal-cv.md) | 8+ | CVPR 2026: UltraFlux 4K, PixelDiT, SpeeDiff 140x |
+| 8 | [Quantization & Efficiency](topics/quantization-efficiency.md) | 8+ | HyperQuant 3.9x. Meta: quantized models "overthink" |
+| 9 | [Scientific AI](topics/scientific-ai.md) | 6+ | Aletheia: autonomous math. STAR-PolyaMath: 8 benchmarks SOTA |
+| 10 | [Interpretability](topics/interpretability.md) | 7+ | Atoms of LLMs (ICML). LatentQA: decode activations → language |
 
 ---
 

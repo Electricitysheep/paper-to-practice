@@ -1,8 +1,9 @@
 # 🤖 Paper-to-Practice：从学术论文到AI Agent实战
 
 <p align="center">
-  <b>📄 100+ 篇顶会论文 → 💡 50+ 条AI Agent开发者实用建议</b><br>
-  <sub>ICLR · ICML · ACL · CVPR · ECCV · Nature MI — 2026年1月–6月</sub>
+  <b>唯一一个告诉你"该怎么改",而不只是"读什么"的 AI 研究清单。</b><br>
+  <sub>📄 100+ 篇顶会论文 → 💡 50+ 条生产实践建议(面向 AI Agent 开发者)</sub><br>
+  <sub>ICLR · ICML · ACL · CVPR · Nature MI — 2026 上半年 + 每月持续更新</sub>
 </p>
 
 <p align="center">
@@ -13,6 +14,10 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow" alt="License"></a>
 </p>
 
+<p align="center">
+  <sub>📅 最新月报：<a href="papers/2026-07-spotlight.md">2026 年 7 月速览</a> · <a href="papers/2026-h1-review.md">主索引(100+ 论文)</a></sub>
+</p>
+
 ---
 
 ## ⚡ 为什么需要这个仓库
@@ -21,13 +26,33 @@
 
 | 学术界产出的是... | 从业者需要的是... |
 |---|---|
-| 每月1376篇arXiv论文（仅cs.AI） | "我到底该怎么做？" |
+| 每月数千篇arXiv论文（仅cs.AI） | "我到底该怎么做？" |
 | 数学证明和消融实验 | 架构决策和部署清单 |
 | 精选数据集上的基准分数 | 真实生产环境中的可靠性 |
 
 **这个仓库填补了这道鸿沟。** 每篇论文都有 **💡 对从业者的意义** 板块——具体、可操作的行动建议。
 
+### 🆚 和其他 awesome 列表有什么不同
+
+| 常见 awesome 列表 | Paper-to-Practice |
+|---|---|
+| 论文标题 + 一句话摘要 | 论文卡片 **+ 一条"该怎么改"的行动建议** |
+| 一份收藏夹清单 | 5 篇**实战指南**,把洞见变成清单 |
+| "该读什么" | "你的系统该改什么" |
+
+> 👉 **新来的?先看 [📇 主索引](papers/2026-h1-review.md)** —— 每篇论文,一行,一条建议。
+>
 > 📖 [English Version →](README.md)
+
+---
+
+## 📸 上半年一图速览
+
+<p align="center">
+  <img src="assets/images/cheatsheet-2026-h1.svg" width="860" alt="Paper-to-Practice 2026 上半年速览:AI 论文告诉你该改的 5 件事">
+</p>
+
+<p align="center"><sub>☝️ 收藏、转发。100+ 篇论文沉淀出的 5 条教训。</sub></p>
 
 ---
 
@@ -35,7 +60,8 @@
 
 | 指标 | 数值 |
 |---|---|
-| 📄 覆盖论文 | **100+** |
+| 📄 覆盖论文 | **100+**（[完整索引](papers/2026-h1-review.md)） |
+| 🔬 深度解读卡片 | **68** 篇（含完整分析 + 建议） |
 | 🏫 覆盖机构 | **30+**（清华、北大、Stanford、MIT、Berkeley、CMU、Oxford、DeepMind、Meta、Google、DeepSeek...） |
 | 📅 时间跨度 | **2026年1月–6月** |
 | 🎯 研究主题 | **10** 大方向 |
@@ -92,6 +118,12 @@
 
 ## 🛠️ 实战指南
 
+这些指南把跨论文的洞见整合成**开箱即用的工作流**。先从决策流开始：
+
+<p align="center">
+  <img src="assets/images/decision-flow.svg" width="720" alt="开发者决策流:何时扩推理算力、加投机解码、上 RL">
+</p>
+
 | 指南 | 描述 | 基于 |
 |------|------|------|
 | [生产Agent部署手册](practical-guides/production-agent-playbook.md) | 部署可靠Agent的分步清单 | MAP研究 + 20+论文 |
@@ -99,6 +131,17 @@
 | [模型选型指南](practical-guides/model-selection-guide.md) | 架构对比：何时用哪个模型 | 10+基础模型论文 |
 | [RL训练手册](practical-guides/rl-training-playbook.md) | 何时以及如何对Agent做RL训练 | DeepSeek R1/R2 + STARE + 15篇 |
 | [记忆系统设计](practical-guides/memory-system-design.md) | 设计真正有效的Agent记忆 | MEMPROBE + 上海交大/清华研究 |
+
+---
+
+## 📖 论文深度解读 & 月报
+
+| 内容 | 类型 | 说明 |
+|---|---|---|
+| [2026 上半年主索引](papers/2026-h1-review.md) | 全景综述 | 100+ 篇论文按主题组织，每篇一条建议 |
+| [DSpark 深度解读](papers/dspark-deep-dive.md) | 推理加速 | 半自回归草稿，生成提速 60-85% |
+| [2026 年 7 月速览](papers/2026-07-spotlight.md) | 最新月报 | 11 篇已核实论文 + Top 3 必读（持续更新） |
+| [2026 年 6 月速览](papers/2026-06-spotlight.md) | 月报 | 6 月 20+ 篇论文，按主题 |
 
 ---
 
@@ -117,7 +160,13 @@
 
 ## ⭐ Star历史
 
-如果觉得有用，**Star这个仓库**保持关注！我们每月发布新的论文解读和实战指南。
+如果觉得有用，**Star这个仓库**保持关注！我们每月发布一期新的论文速览。
+
+<p align="center">
+  <a href="https://star-history.com/#Electricitysheep/paper-to-practice&Date">
+    <img src="https://api.star-history.com/svg?repos=Electricitysheep/paper-to-practice&type=Date" width="600" alt="Star History Chart">
+  </a>
+</p>
 
 ---
 

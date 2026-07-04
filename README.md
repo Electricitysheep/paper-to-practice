@@ -10,9 +10,14 @@
   <a href="#-by-the-numbers"><img src="https://img.shields.io/badge/Papers-100%2B-blue?style=flat-square" alt="Papers"></a>
   <a href="#-topics"><img src="https://img.shields.io/badge/Topics-10-brightgreen?style=flat-square" alt="Topics"></a>
   <a href="#-practical-guides"><img src="https://img.shields.io/badge/Guides-5-orange?style=flat-square" alt="Guides"></a>
-  <a href="#-by-the-numbers"><img src="https://img.shields.io/badge/Updated-Monthly-ff69b4?style=flat-square" alt="Updates"></a>
+  <a href="papers/2026-06-spotlight.md"><img src="https://img.shields.io/badge/Updated-Monthly-ff69b4?style=flat-square" alt="Updates"></a>
+  <a href="https://github.com/Electricitysheep/paper-to-practice/actions/workflows/link-check.yml"><img src="https://github.com/Electricitysheep/paper-to-practice/actions/workflows/link-check.yml/badge.svg" alt="Link Check"></a>
   <a href="README_CN.md"><img src="https://img.shields.io/badge/中文-完整版-red" alt="Chinese"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow" alt="License"></a>
+</p>
+
+<p align="center">
+  <sub>📅 Latest digest: <a href="papers/2026-06-spotlight.md">June 2026 Spotlight</a> · <a href="papers/2026-h1-review.md">Master Index (100+ papers)</a></sub>
 </p>
 
 ---

@@ -40,6 +40,25 @@ Help us reach developers in other languages:
 - We'll create a `README_XX.md` file
 - Translate any subset of content
 
+## 📅 The Monthly Digest (maintainer rhythm)
+
+This repo commits to a **visible monthly cadence** — the biggest single driver of stars for a curated list. Each month:
+
+1. A GitHub Action opens a **"Publish the &lt;month&gt; digest"** reminder issue on the 1st.
+2. Copy [`papers/_TEMPLATE-monthly-digest.md`](papers/_TEMPLATE-monthly-digest.md) → `papers/<YYYY>-<MM>-spotlight.md`.
+3. Fill it with the ~15–25 papers that actually change what a builder should do, each with a real **💡 takeaway**.
+4. Add breakout papers as full cards in `topics/`, update the master index, and link the digest from the README.
+
+Publishing the digest = a real dated commit, so the "Updated Monthly" badge is backed by evidence.
+
+## ✅ Automated checks
+
+Every push and PR runs a **link check** (`.github/workflows/link-check.yml`):
+- **Internal links & anchors** are verified on every change and **must resolve** — a broken relative link fails CI.
+- **External links** (arXiv, DOIs) are fully checked monthly; broken ones open a tracking issue.
+
+Placeholder arXiv IDs (`2606.xxxxx`) are **not allowed** — either find the real ID or omit the link. Fabricated papers/links are the fastest way to lose a research audience's trust.
+
 ## Quality Guidelines
 
 - **Accuracy**: Verify arXiv IDs, author names, and institution affiliations

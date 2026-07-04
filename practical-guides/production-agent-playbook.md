@@ -1,6 +1,6 @@
 # Production Agent Playbook
 
-> Step-by-step guide for deploying reliable AI agents — based on 306 practitioners and 100+ papers
+> Step-by-step guide for deploying reliable AI agents — based on the MAP study (86 practitioners + 20 interviews) and 100+ papers
 
 ---
 

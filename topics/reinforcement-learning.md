@@ -104,8 +104,8 @@ Phase 3: Self-Correction
 ## 📎 Related Papers
 
 - [DEEPPLANNER](https://aclanthology.org/2026.findings-acl.370/) — Advantage shaping for agent planning (ACL 2026)
-- [BOOM](https://arxiv.org/abs/2601.xxxxx) — World model RL for embodied AI (Tsinghua/Berkeley)
-- [HACRL](https://arxiv.org/abs/2603.xxxxx) — Heterogeneous agent collaborative RL
+- **BOOM** — World model RL for embodied AI (Tsinghua/Berkeley) · *arXiv link TBD*
+- **HACRL** — Heterogeneous agent collaborative RL · *arXiv link TBD*
 
 ---
 

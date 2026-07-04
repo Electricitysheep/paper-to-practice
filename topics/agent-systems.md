@@ -22,7 +22,7 @@
 ### 1. MAP: Measuring Agents in Production
 - **Authors**: UC Berkeley, Stanford et al. | **Venue**: ICML 2026 Spotlight
 - **arXiv**: [2512.04123](https://arxiv.org/abs/2512.04123)
-- **TL;DR**: First large-scale empirical study of production AI agents. Surveyed 306 practitioners across 26 domains.
+- **TL;DR**: First large-scale empirical study of production AI agents. 20 in-depth case-study interviews plus a survey of 86 practitioners across 26 domains.
 - **Key Findings**:
   - 68% of agents execute ≤10 steps before human intervention
   - 70% rely on prompting off-the-shelf models

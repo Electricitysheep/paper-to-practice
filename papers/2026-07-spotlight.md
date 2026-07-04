@@ -20,11 +20,18 @@ The opening days of July zero in on one theme: **the gap between benchmark compe
 | **Can Agents Generalize to the Open World?** (LAMDA-NeSy) | [2607.01084](https://arxiv.org/abs/2607.01084) | SFT- and RL-trained agents degrade under open-world shifts in queries, tool sets, and interaction patterns | Don't train only on static benchmarks — inject query/tool/interaction perturbations during fine-tuning (perturbation-augmented FT) so agents survive real conditions |
 | **RepoRescue: Whole-Repository Compatibility Rescue** | [2607.01213](https://arxiv.org/abs/2607.01213) | Repo-level code agents fail mainly on **cross-file coordination**, not single fixes (big spread across systems on 14 whole-codebase tasks) | Invest in whole-repo dependency tracking and global refactoring, not just per-file edits — that's where coding agents break |
 
-## ⚡ Inference & Long-Context
+## 🎯 RL & Reasoning Training
+
+| Paper | arXiv | Why it matters | 💡 Do this |
+|---|---|---|---|
+| **Active-GRPO: Adaptive Imitation + Self-Improving Reasoning** | [2607.00531](https://arxiv.org/abs/2607.00531) | Answer-only SFT collapses multi-step reasoning; RLVR alone suffers sparse feedback | Don't anchor to a static reference — let the policy decide per-instance when to imitate vs. reinforce, and keep upgrading the reference to the best rollouts |
+
+## ⚡ Inference, Long-Context & Retrieval
 
 | Paper | arXiv | Why it matters | 💡 Do this |
 |---|---|---|---|
 | **ReContext: Recursive Evidence Replay** | [2607.02509](https://arxiv.org/abs/2607.02509) | Even at 128K context, models fail to *use* relevant info already in the window | A bigger window ≠ better recall — replay query-relevant evidence before final generation (training-free, no external memory, no pruning) |
+| **DCCD: Dual-Confidence Contrastive Decoding for RAG** | [2607.00570](https://arxiv.org/abs/2607.00570) | The overlooked failure is **documents that contradict each other**, not just model-vs-context conflict | Don't weight retrieved docs equally — gate on both document-level and token-level confidence when sources disagree |
 
 ## 🛡️ Safety & Evaluation
 
@@ -48,9 +55,10 @@ The opening days of July zero in on one theme: **the gap between benchmark compe
 
 ## 🚧 Still to add this month
 
-- [ ] Inference / efficiency papers (quantization, decoding) as they land
+- [x] RL training methods — *seeded (Active-GRPO)*
+- [x] Retrieval / RAG — *seeded (DCCD)*
+- [ ] Quantization / decoding efficiency papers as they land
 - [ ] Foundation-model releases and technical reports
-- [ ] RL training methods
 - [ ] Multimodal & CV
 - [ ] Pick the month's **top 3 must-reads** once the field is fuller
 

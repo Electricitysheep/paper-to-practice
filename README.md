@@ -3,21 +3,21 @@
 <p align="center">
   <b>The only AI-research list that tells you what to <i>do differently</i> — not just what to read.</b><br>
   <sub>📄 100+ Top-Tier Papers → 💡 50+ Production Takeaways for AI Agent Builders</sub><br>
-  <sub>ICLR · ICML · ACL · CVPR · ECCV · Nature MI — January–June 2026</sub>
+  <sub>ICLR · ICML · ACL · CVPR · Nature MI — 2026 H1 + ongoing monthly digests</sub>
 </p>
 
 <p align="center">
   <a href="#-by-the-numbers"><img src="https://img.shields.io/badge/Papers-100%2B-blue?style=flat-square" alt="Papers"></a>
   <a href="#-topics"><img src="https://img.shields.io/badge/Topics-10-brightgreen?style=flat-square" alt="Topics"></a>
   <a href="#-practical-guides"><img src="https://img.shields.io/badge/Guides-5-orange?style=flat-square" alt="Guides"></a>
-  <a href="papers/2026-06-spotlight.md"><img src="https://img.shields.io/badge/Updated-Monthly-ff69b4?style=flat-square" alt="Updates"></a>
+  <a href="papers/2026-07-spotlight.md"><img src="https://img.shields.io/badge/Updated-Monthly-ff69b4?style=flat-square" alt="Updates"></a>
   <a href="https://github.com/Electricitysheep/paper-to-practice/actions/workflows/link-check.yml"><img src="https://github.com/Electricitysheep/paper-to-practice/actions/workflows/link-check.yml/badge.svg" alt="Link Check"></a>
   <a href="README_CN.md"><img src="https://img.shields.io/badge/中文-完整版-red" alt="Chinese"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow" alt="License"></a>
 </p>
 
 <p align="center">
-  <sub>📅 Latest digest: <a href="papers/2026-06-spotlight.md">June 2026 Spotlight</a> · <a href="papers/2026-h1-review.md">Master Index (100+ papers)</a></sub>
+  <sub>📅 Latest digest: <a href="papers/2026-07-spotlight.md">July 2026 Spotlight</a> · <a href="papers/2026-h1-review.md">Master Index (100+ papers)</a></sub>
 </p>
 
 ---
@@ -28,7 +28,7 @@ In 2026, **AI Agents moved from lab to production**. Yet a massive gap remains:
 
 | Academia publishes... | Practitioners need... |
 |---|---|
-| 1376 papers/month on arXiv (cs.AI alone) | "What should I actually do differently?" |
+| Thousands of papers/month on arXiv (cs.AI alone) | "What should I actually do differently?" |
 | Mathematical proofs and ablation studies | Architecture decisions and deployment checklists |
 | Benchmarks on curated datasets | Reliability in real-world production |
 
@@ -171,7 +171,8 @@ These guides synthesize insights across papers into **ready-to-use workflows**. 
 |-------|-------|-------------------|
 | [DSpark: Speculative Decoding](papers/dspark-deep-dive.md) | Inference acceleration | 60-85% faster generation with semi-autoregressive draft |
 | [2026 H1 Comprehensive Review](papers/2026-h1-review.md) | Full semester survey | All 100+ papers organized by theme with takeaways |
-| [June 2026 Spotlight](papers/2026-06-spotlight.md) | Monthly digest | 40+ papers from June alone |
+| [July 2026 Spotlight](papers/2026-07-spotlight.md) | Latest monthly digest | 11 verified papers + top-3 must-reads (living) |
+| [June 2026 Spotlight](papers/2026-06-spotlight.md) | Monthly digest | 20+ papers from June, by theme |
 
 ---
 
@@ -196,7 +197,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ## ⭐ Star History
 
-If you find this useful, **star the repo** to stay updated! We publish monthly digests and new practical guides.
+If you find this useful, **star the repo** to stay updated — we publish a fresh digest every month.
+
+<p align="center">
+  <a href="https://star-history.com/#Electricitysheep/paper-to-practice&Date">
+    <img src="https://api.star-history.com/svg?repos=Electricitysheep/paper-to-practice&type=Date" width="600" alt="Star History Chart">
+  </a>
+</p>
 
 ---
 

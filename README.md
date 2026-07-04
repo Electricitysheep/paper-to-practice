@@ -48,6 +48,16 @@ In 2026, **AI Agents moved from lab to production**. Yet a massive gap remains:
 
 ---
 
+## 📸 The Whole Half-Year in One Image
+
+<p align="center">
+  <img src="assets/images/cheatsheet-2026-h1.svg" width="860" alt="Paper-to-Practice 2026 H1 cheat-sheet: five things AI papers say you should do differently">
+</p>
+
+<p align="center"><sub>☝️ Save it, share it. The 5 lessons that survived 100+ papers.</sub></p>
+
+---
+
 ## 📊 By The Numbers
 
 | Metric | Value |
@@ -138,7 +148,12 @@ In 2026, **AI Agents moved from lab to production**. Yet a massive gap remains:
 
 ## 🛠️ Practical Guides
 
-These guides synthesize insights across papers into **ready-to-use workflows**:
+These guides synthesize insights across papers into **ready-to-use workflows**. Start with the decision flow:
+
+<p align="center">
+  <img src="assets/images/decision-flow.svg" width="720" alt="Builder's decision flow: when to scale test-time compute, add speculative decoding, or reach for RL">
+</p>
+
 
 | Guide | Description | Based On |
 |-------|-------------|----------|

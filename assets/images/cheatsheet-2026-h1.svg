@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+  <rect width="1200" height="800" fill="#0d1117"/>
+
+  <!-- Header -->
+  <rect width="1200" height="112" fill="#161b22"/>
+  <rect width="1200" height="4" y="108" fill="#58a6ff"/>
+  <text x="40" y="52" fill="#e6edf3" font-size="30" font-weight="700">🤖 Paper-to-Practice — 2026 H1 in one glance</text>
+  <text x="40" y="88" fill="#8b949e" font-size="19">What 100+ top-tier AI papers say you should <tspan fill="#58a6ff" font-weight="600">DO differently</tspan> — not just read.</text>
+
+  <!-- Card template: 5 rows -->
+  <!-- Row 1 -->
+  <g transform="translate(40,140)">
+    <rect width="1120" height="112" rx="10" fill="#161b22" stroke="#21262d"/>
+    <circle cx="56" cy="56" r="28" fill="#58a6ff"/>
+    <text x="56" y="65" fill="#0d1117" font-size="28" font-weight="800" text-anchor="middle">1</text>
+    <text x="108" y="46" fill="#e6edf3" font-size="22" font-weight="700">Simple wins in production</text>
+    <text x="108" y="82" fill="#adbac7" font-size="18">💡 68% of agents run ≤10 steps. Start with prompt chains; add complexity only when proven.</text>
+  </g>
+  <!-- Row 2 -->
+  <g transform="translate(40,264)">
+    <rect width="1120" height="112" rx="10" fill="#161b22" stroke="#21262d"/>
+    <circle cx="56" cy="56" r="28" fill="#3fb950"/>
+    <text x="56" y="65" fill="#0d1117" font-size="28" font-weight="800" text-anchor="middle">2</text>
+    <text x="108" y="46" fill="#e6edf3" font-size="22" font-weight="700">RL is the new default recipe</text>
+    <text x="108" y="82" fill="#adbac7" font-size="18">💡 GRPO + verifiable rewards — but SFT cold-start first. Never jump straight to RL.</text>
+  </g>
+  <!-- Row 3 -->
+  <g transform="translate(40,388)">
+    <rect width="1120" height="112" rx="10" fill="#161b22" stroke="#21262d"/>
+    <circle cx="56" cy="56" r="28" fill="#f778ba"/>
+    <text x="56" y="65" fill="#0d1117" font-size="28" font-weight="800" text-anchor="middle">3</text>
+    <text x="108" y="46" fill="#e6edf3" font-size="22" font-weight="700">Small model + more thinking &gt; big model + fast answer</text>
+    <text x="108" y="82" fill="#adbac7" font-size="18">💡 A 0.5B model beat GPT-4o on MATH via test-time scaling. Buy inference before a bigger model.</text>
+  </g>
+  <!-- Row 4 -->
+  <g transform="translate(40,512)">
+    <rect width="1120" height="112" rx="10" fill="#161b22" stroke="#21262d"/>
+    <circle cx="56" cy="56" r="28" fill="#d29922"/>
+    <text x="56" y="65" fill="#0d1117" font-size="28" font-weight="800" text-anchor="middle">4</text>
+    <text x="108" y="46" fill="#e6edf3" font-size="22" font-weight="700">The harness is 98% of the work</text>
+    <text x="108" y="82" fill="#adbac7" font-size="18">💡 ~2% model code, ~98% context/tools/memory/eval. Stop chasing leaderboards.</text>
+  </g>
+  <!-- Row 5 -->
+  <g transform="translate(40,636)">
+    <rect width="1120" height="112" rx="10" fill="#161b22" stroke="#21262d"/>
+    <circle cx="56" cy="56" r="28" fill="#a371f7"/>
+    <text x="56" y="65" fill="#0d1117" font-size="28" font-weight="800" text-anchor="middle">5</text>
+    <text x="108" y="46" fill="#e6edf3" font-size="22" font-weight="700">Safety moved from prompts to mechanisms</text>
+    <text x="108" y="82" fill="#adbac7" font-size="18">💡 Vector alignment (LLM-VA) is the cheapest upgrade — minutes, no fine-tuning.</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="600" y="782" fill="#6e7681" font-size="17" text-anchor="middle">github.com/Electricitysheep/paper-to-practice  ·  100+ papers → 50+ takeaways  ·  MIT  ·  EN / 中文</text>
+</svg>

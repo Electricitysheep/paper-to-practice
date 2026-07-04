@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1100" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6e7681"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="1100" fill="#0d1117"/>
+
+  <!-- Header -->
+  <rect width="1000" height="96" fill="#161b22"/>
+  <rect width="1000" height="4" y="92" fill="#3fb950"/>
+  <text x="40" y="42" fill="#e6edf3" font-size="26" font-weight="700">🧭 Builder's Decision Flow</text>
+  <text x="40" y="74" fill="#8b949e" font-size="17">Model, inference &amp; training — climb in order, stop when it's good enough.</text>
+
+  <!-- Arrows (drawn first, under boxes) -->
+  <g stroke="#6e7681" stroke-width="2" fill="none">
+    <line x1="300" y1="188" x2="300" y2="262" marker-end="url(#arrow)"/>
+    <line x1="300" y1="338" x2="300" y2="412" marker-end="url(#arrow)"/>
+    <line x1="300" y1="488" x2="300" y2="562" marker-end="url(#arrow)"/>
+    <line x1="300" y1="638" x2="300" y2="712" marker-end="url(#arrow)"/>
+    <line x1="300" y1="788" x2="300" y2="862" marker-end="url(#arrow)"/>
+    <line x1="300" y1="938" x2="300" y2="992" marker-end="url(#arrow)"/>
+    <!-- yes branches to the right -->
+    <line x1="490" y1="300" x2="558" y2="300" marker-end="url(#arrow)"/>
+    <line x1="490" y1="600" x2="558" y2="600" marker-end="url(#arrow)"/>
+    <line x1="490" y1="750" x2="558" y2="750" marker-end="url(#arrow)"/>
+    <line x1="490" y1="900" x2="558" y2="900" marker-end="url(#arrow)"/>
+  </g>
+  <!-- edge labels -->
+  <g font-size="14" font-weight="700">
+    <text x="312" y="228" fill="#8b949e">no ↓</text>
+    <text x="312" y="528" fill="#8b949e">continue ↓</text>
+    <text x="312" y="678" fill="#8b949e">continue ↓</text>
+    <text x="312" y="828" fill="#8b949e">continue ↓</text>
+    <text x="312" y="978" fill="#8b949e">no ↓</text>
+    <text x="510" y="292" fill="#3fb950">yes</text>
+    <text x="510" y="592" fill="#3fb950">yes</text>
+    <text x="510" y="742" fill="#3fb950">yes</text>
+    <text x="510" y="892" fill="#3fb950">yes</text>
+  </g>
+
+  <!-- START -->
+  <g transform="translate(110,150)">
+    <rect width="380" height="38" rx="19" x="0" y="-19" fill="#161b22" stroke="#3fb950" stroke-width="2"/>
+    <text x="190" y="6" fill="#e6edf3" font-size="17" font-weight="700" text-anchor="middle">START · New agent task or feature</text>
+  </g>
+
+  <!-- C1 -->
+  <g transform="translate(110,300)">
+    <rect width="380" height="76" rx="10" y="-38" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+    <text x="190" y="-8" fill="#e6edf3" font-size="16" font-weight="700" text-anchor="middle">Does prompt engineering pass</text>
+    <text x="190" y="16" fill="#e6edf3" font-size="16" font-weight="700" text-anchor="middle">your eval suite?</text>
+  </g>
+  <!-- O1 -->
+  <g transform="translate(560,300)">
+    <rect width="410" height="60" rx="10" y="-30" fill="#12261a" stroke="#3fb950" stroke-width="2"/>
+    <text x="20" y="-4" fill="#e6edf3" font-size="15" font-weight="700">Ship it. ✅</text>
+    <text x="20" y="18" fill="#adbac7" font-size="14">~70% of production teams stop here.</text>
+  </g>
+
+  <!-- STEP -->
+  <g transform="translate(110,450)">
+    <rect width="380" height="76" rx="10" y="-38" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <text x="190" y="-8" fill="#adbac7" font-size="15" text-anchor="middle">Write a 20–50 task eval suite.</text>
+    <text x="190" y="16" fill="#adbac7" font-size="15" text-anchor="middle">Measure cost + latency per task.</text>
+  </g>
+
+  <!-- C2 -->
+  <g transform="translate(110,600)">
+    <rect width="380" height="76" rx="10" y="-38" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+    <text x="190" y="-8" fill="#e6edf3" font-size="16" font-weight="700" text-anchor="middle">Reasoning-heavy task?</text>
+    <text x="190" y="16" fill="#8b949e" font-size="14" text-anchor="middle">(math / code / planning)</text>
+  </g>
+  <!-- O2 -->
+  <g transform="translate(560,600)">
+    <rect width="410" height="60" rx="10" y="-30" fill="#12261a" stroke="#3fb950" stroke-width="2"/>
+    <text x="20" y="-4" fill="#e6edf3" font-size="15" font-weight="700">Scale test-time compute first.</text>
+    <text x="20" y="18" fill="#adbac7" font-size="14">Small model + more thinking (TTS) &gt; bigger model.</text>
+  </g>
+
+  <!-- C3 -->
+  <g transform="translate(110,750)">
+    <rect width="380" height="76" rx="10" y="-38" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+    <text x="190" y="2" fill="#e6edf3" font-size="16" font-weight="700" text-anchor="middle">Latency critical?</text>
+  </g>
+  <!-- O3 -->
+  <g transform="translate(560,750)">
+    <rect width="410" height="60" rx="10" y="-30" fill="#12261a" stroke="#3fb950" stroke-width="2"/>
+    <text x="20" y="-4" fill="#e6edf3" font-size="15" font-weight="700">Add speculative decoding.</text>
+    <text x="20" y="18" fill="#adbac7" font-size="14">DSpark: 60–85% faster, no quality loss.</text>
+  </g>
+
+  <!-- C4 -->
+  <g transform="translate(110,900)">
+    <rect width="380" height="76" rx="10" y="-38" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+    <text x="190" y="-8" fill="#e6edf3" font-size="16" font-weight="700" text-anchor="middle">Prompt + SFT still</text>
+    <text x="190" y="16" fill="#e6edf3" font-size="16" font-weight="700" text-anchor="middle">not enough?</text>
+  </g>
+  <!-- O4 -->
+  <g transform="translate(560,900)">
+    <rect width="410" height="60" rx="10" y="-30" fill="#12261a" stroke="#3fb950" stroke-width="2"/>
+    <text x="20" y="-4" fill="#e6edf3" font-size="15" font-weight="700">SFT cold-start → GRPO (verifiable rewards).</text>
+    <text x="20" y="18" fill="#adbac7" font-size="14">Watch entropy collapse (STARE).</text>
+  </g>
+
+  <!-- FINAL -->
+  <g transform="translate(110,1030)">
+    <rect width="860" height="60" rx="10" y="-30" fill="#1c2333" stroke="#a371f7" stroke-width="2"/>
+    <text x="20" y="-4" fill="#e6edf3" font-size="15" font-weight="700">Complex / heterogeneous workload? Use the orchestrator pattern.</text>
+    <text x="20" y="18" fill="#adbac7" font-size="14">A small model routes to big models — best cost/quality for hard, mixed tasks.</text>
+  </g>
+</svg>

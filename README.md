@@ -1,7 +1,8 @@
 # 🤖 Paper-to-Practice: Turning AI Research into Production Wisdom
 
 <p align="center">
-  <b>📄 100+ Top-Tier Papers → 💡 50+ Actionable Insights for AI Agent Builders</b><br>
+  <b>The only AI-research list that tells you what to <i>do differently</i> — not just what to read.</b><br>
+  <sub>📄 100+ Top-Tier Papers → 💡 50+ Production Takeaways for AI Agent Builders</sub><br>
   <sub>ICLR · ICML · ACL · CVPR · ECCV · Nature MI — January–June 2026</sub>
 </p>
 
@@ -28,6 +29,16 @@ In 2026, **AI Agents moved from lab to production**. Yet a massive gap remains:
 
 **This repo bridges that gap.** Every paper we cover includes a **💡 For Practitioners** section — concrete, actionable advice you can apply today.
 
+### 🆚 How this differs from other "awesome" lists
+
+| Typical awesome-list | Paper-to-Practice |
+|---|---|
+| Paper title + 1-line summary | Paper card **+ a "what to do differently" takeaway** |
+| A list to bookmark | 5 **practical guides** that turn insights into checklists |
+| "Here's what to read" | "Here's what to *change* in your system" |
+
+> 👉 **New here? Start with the [📇 Master Index](papers/2026-h1-review.md)** — every paper, one line, one takeaway.
+>
 > 📖 [中文版 (Chinese Version) →](README_CN.md)
 
 ---
@@ -36,7 +47,8 @@ In 2026, **AI Agents moved from lab to production**. Yet a massive gap remains:
 
 | Metric | Value |
 |---|---|
-| 📄 Papers Reviewed | **100+** |
+| 📄 Papers Reviewed | **100+** ([full index](papers/2026-h1-review.md)) |
+| 🔬 Deep-Dive Cards | **68** with full analysis + takeaways |
 | 🏫 Institutions Covered | **30+** (Tsinghua, Stanford, MIT, Berkeley, CMU, Oxford, DeepMind, Meta, Google, DeepSeek...) |
 | 📅 Time Span | **January–June 2026** (6 months) |
 | 🎯 Topics | **10** research themes |
@@ -76,7 +88,7 @@ In 2026, **AI Agents moved from lab to production**. Yet a massive gap remains:
 ## ⚡ 5-Minute Summary: What 2026 H1 Taught Us
 
 ### 1. Agent Systems Are Production-Ready (But Simple Wins)
-> The MAP study (ICML 2026 Spotlight) surveyed 306 practitioners: **68% of production agents execute ≤10 steps** before human intervention. **70% use prompting, not fine-tuning.** The top challenge is **reliability, not capability.**
+> The MAP study (ICML 2026 Oral) surveyed 86 practitioners (plus 20 in-depth interviews) across 26 domains: **68% of production agents execute ≤10 steps** before human intervention. **70% use prompting, not fine-tuning.** The top challenge is **reliability, not capability.**
 
 **💡**: Don't over-engineer. Start with simple prompt chains. Add RL only when needed. ([Read more →](topics/agent-systems.md))
 

@@ -63,7 +63,7 @@
 - **💡 For Practitioners**: Small model + orchestration > large model alone. The orchestrator pattern is the most cost-effective strategy for complex tasks.
 
 ### 7. HACRL: Heterogeneous Agent Collaborative RL
-- **Institution**: Beihang/Tsinghua/PKU | **Date**: March 2026
+- **Institution**: Beihang/Tsinghua/PKU | **Date**: March 2026 | **arXiv**: [2603.02604](https://arxiv.org/abs/2603.02604)
 - **TL;DR**: Heterogeneous agents share verified rollouts during training, deploy independently during inference. Breaks the one-way knowledge distillation paradigm.
 - **Key Results**: +3.3% avg performance, 50% less sampling cost.
 - **💡 For Practitioners**: If you have multiple models of different sizes/architectures, let them learn from each other's rollouts during training. They can deploy independently.

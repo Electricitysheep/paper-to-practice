@@ -62,7 +62,7 @@
 ## 📎 Related Papers
 
 - [LLM-VA](https://arxiv.org/abs/2601.19487) — Vector alignment for safety (ACL 2026)
-- **LASA** — Language-agnostic semantic alignment (ACL 2026) · *arXiv link TBD*
+- [LASA](https://arxiv.org/abs/2604.12710) — Language-agnostic semantic alignment at the semantic bottleneck (ACL 2026)
 - [Obj-Disco](https://arxiv.org/abs/2602.15338) — Discovering hidden alignment objectives (ICML 2026)
 
 ---

@@ -98,7 +98,7 @@ Need physical/embodied AI?
 
 - [GLM-5](https://arxiv.org/abs/2602.15763) — From Vibe Coding to Agentic Engineering (Zhipu AI)
 - [Ling-2.6/Ring-2.6](https://arxiv.org/abs/2606.15079) — Trillion-parameter agent-native models (InclusionAI)
-- **UniCM** — Unified climate mode prediction (Tsinghua, Nature MI) · *DOI link TBD*
+- [UniCM](https://www.nature.com/articles/s42256-026-01245-5) — Learning the coupled dynamics of global climate modes (Tsinghua, Nature MI) · [code](https://github.com/tsinghua-fib-lab/UniCM-Global-Climate-Modes)
 - [UniAR](https://arxiv.org/abs/2606.18249) — Unified multimodal autoregressive modeling
 
 ---

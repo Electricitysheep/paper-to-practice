@@ -18,7 +18,7 @@
 | Hyperagents: Self-Referential Agents | 2026 | [2603.19461](https://arxiv.org/abs/2603.19461) | Make the self-improvement procedure itself editable, not just the task behavior |
 | IMAD: Internalized Multi-Agent Debate | ACL 2026 | [2604.24881](https://arxiv.org/abs/2604.24881) | One post-trained model can simulate expert debate at 93% lower token cost |
 | SciOrch: Orchestrating Expert LLMs | 2026 | [2606.15872](https://arxiv.org/abs/2606.15872) | Small orchestrator + delegated big models beats any single model on cost/quality |
-| HACRL: Heterogeneous Collaborative RL | 2026 | *link TBD* | Let differently-sized models learn from each other's rollouts, deploy independently |
+| HACRL: Heterogeneous Collaborative RL | 2026 | [2603.02604](https://arxiv.org/abs/2603.02604) | Let differently-sized models learn from each other's rollouts, deploy independently |
 
 **Further reading:** [KLong](https://arxiv.org/abs/2602.17547) · [LOGIGEN](https://arxiv.org/abs/2603.00540) · [ProAct](https://arxiv.org/abs/2602.05327) · [Lacuna](https://arxiv.org/abs/2605.28617) · [HarnessBridge](https://arxiv.org/abs/2606.12882) · [Graph-of-Agents](https://arxiv.org/abs/2604.17148)
 
@@ -38,7 +38,7 @@
 | LangMARL: Natural-Language Multi-Agent RL | 2026 | [2604.00722](https://arxiv.org/abs/2604.00722) | Agents can coordinate in natural language as the action space |
 | GTR: Guided Thought RL | 2026 | — | Guide the reasoning trace, not just the final answer |
 
-**Further reading:** BOOM (world-model RL, embodied — *link TBD*) · [SPIRAL](https://arxiv.org/abs/2606.23595)
+**Further reading:** [SPIRAL](https://arxiv.org/abs/2606.23595) (sequential-parallel-aggregative RL)
 
 ---
 
@@ -64,7 +64,7 @@
 |---|---|---|---|
 | RIM: Reasoning-Induced Misalignment | ICLR 2026 | — | More reasoning can *increase* misalignment — audit chains, not just answers |
 | ⭐🏆 LLM-VA: Vector Alignment | ACL 2026 | [2601.19487](https://arxiv.org/abs/2601.19487) | Cheapest safety upgrade — vector alignment in minutes, no fine-tuning |
-| LASA: Language-Agnostic Semantic Alignment | ACL 2026 | *link TBD* | Align safety across languages, not just English |
+| LASA: Language-Agnostic Semantic Alignment | ACL 2026 | [2604.12710](https://arxiv.org/abs/2604.12710) | Align safety across languages, not just English |
 | SInternal: Internalizing Safety via Verification | 2026 | — | Train the model to verify itself instead of bolting on a filter |
 | Reflector: Step-wise Self-Reflection | 2026 | — | Reflect per-step to resist indirect / injected jailbreaks |
 | Lacuna: Safe Agents as Program Holes | 2026 | [2605.28617](https://arxiv.org/abs/2605.28617) | Type-safe agents — treat unfilled actions as typed holes |

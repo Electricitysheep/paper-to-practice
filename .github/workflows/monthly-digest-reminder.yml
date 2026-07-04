@@ -1,0 +1,33 @@
+name: Monthly Digest Reminder
+
+# Builds the "visible update rhythm" that high-star lists rely on: on the 1st
+# of every month this opens a checklist issue to publish the previous month's
+# digest. Publishing it = a real commit + a dated entry, so the "Updated
+# Monthly" promise is backed by evidence, not just a badge.
+
+on:
+  schedule:
+    - cron: '0 8 1 * *'   # 08:00 UTC on the 1st of each month
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  open-reminder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compute the month being covered
+        id: month
+        run: echo "name=$(date -d 'last month' +'%B %Y')" >> "$GITHUB_OUTPUT"
+      - name: Fill the reminder template
+        run: |
+          sed "s/{{MONTH}}/${{ steps.month.outputs.name }}/g" \
+            .github/DIGEST_REMINDER_TEMPLATE.md > /tmp/digest-issue.md
+      - name: Open the reminder issue
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "📅 Publish the ${{ steps.month.outputs.name }} digest"
+          content-filepath: /tmp/digest-issue.md
+          labels: monthly-digest

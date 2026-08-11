@@ -1,7 +1,7 @@
 # 🔦 July 2026 Spotlight
 
-> **🗓️ Living digest — last updated 2026-07-04 · 11 papers, verified against arXiv.**
-> July is early in the month, so this grows as papers land; a final pass runs at month-end (~Aug 1). Every entry is checked against its arXiv source — no placeholder IDs, no fabrication.
+> **🗓️ Living digest — last updated 2026-07-31 · 12 papers, verified against arXiv.**
+> July is closing, with a final ranking pass scheduled for ~Aug 1. Every entry is checked against its arXiv source — no placeholder IDs, no fabrication.
 
 For the first-half picture, see the [2026 H1 Master Index](2026-h1-review.md).
 
@@ -9,7 +9,7 @@ For the first-half picture, see the [2026 H1 Master Index](2026-h1-review.md).
 
 ## 🏆 The month so far, in one sentence
 
-Early July hammers one theme: **the gap between benchmark competence and open-world reliability** — agents that pass static tests but drift under real-world shift, long contexts models don't actually use, reasoning that runs too long, and task-state that gets lost.
+July's papers hammer one theme: **the gap between benchmark competence and open-world reliability** — agents that pass static tests but drift under real-world shift, long contexts models don't actually use, reasoning that runs too long, and task-state that gets lost.
 
 ## ⭐ Top 3 must-reads (apply this week)
 
@@ -47,6 +47,12 @@ Early July hammers one theme: **the gap between benchmark competence and open-wo
 | **DCCD: Dual-Confidence Contrastive Decoding for RAG** | [2607.00570](https://arxiv.org/abs/2607.00570) | The overlooked failure is **documents that contradict each other**, not just model-vs-context conflict | Gate on both document-level and token-level confidence when sources disagree — don't weight all docs equally |
 | **What Survives Into Context (multi-hop RAG diagnostic)** | [2607.00725](https://arxiv.org/abs/2607.00725) | Retrieving the gold doc ≠ the answer surviving into the packed context (4.6× EM gap even when all gold is retrieved) | Measure "answer-in-context," not just retrieval recall; fancy evidence packing mainly helps weaker readers / tight budgets |
 
+## 🖼️ Multimodal & CV
+
+| Paper | arXiv | Why it matters | 💡 Do this |
+|---|---|---|---|
+| **ReToken: One Token to Improve Vision-Language Models for Visual Retrieval** | [2607.28627](https://arxiv.org/abs/2607.28627) | Long visual contexts degrade as distractors grow; a learned retrieval token selects sparse, query-relevant visual tokens from a pre-filled KV cache | Before scaling a VLM's full visual context, benchmark sparse query-conditioned token retrieval—especially for long video and visual-haystack workloads |
+
 ## 🛡️ Safety & Evaluation
 
 | Paper | arXiv | Why it matters | 💡 Do this |
@@ -72,7 +78,7 @@ Early July hammers one theme: **the gap between benchmark competence and open-wo
 - [x] Agents, RL, inference, RAG, safety, world-models, science — seeded
 - [ ] Add quantization / KV-cache efficiency papers as they land
 - [ ] Add foundation-model releases and technical reports
-- [ ] Add multimodal & CV
+- [x] Add multimodal & CV
 - [ ] Re-rank the **Top 3** once the full month is in
 
 > Want to help fill this in? [Suggest a paper](../.github/ISSUE_TEMPLATE/add-paper.md) or open a PR — real arXiv links only.
